@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RGiesecke.DllExport.Metadata.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:RGiesecke.DllExport.Fakes.ShimDllExportAttribute">
+            <summary>Shim type of RGiesecke.DllExport.DllExportAttribute</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.#ctor(RGiesecke.DllExport.DllExportAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.AllInstances.CallingConventionGet">
+            <summary>Sets the Shim of DllExportAttribute.get_CallingConvention()</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.AllInstances.CallingConventionSetCallingConvention">
+            <summary>Sets the Shim of DllExportAttribute.set_CallingConvention(CallingConvention value)</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.AllInstances.ExportNameGet">
+            <summary>Sets the Shim of DllExportAttribute.get_ExportName()</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.AllInstances.ExportNameSetString">
+            <summary>Sets the Shim of DllExportAttribute.set_ExportName(String value)</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.CallingConventionGet">
+            <summary>Sets the Shim of DllExportAttribute.get_CallingConvention()</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.CallingConventionSetCallingConvention">
+            <summary>Sets the Shim of DllExportAttribute.set_CallingConvention(CallingConvention value)</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.Constructor">
+            <summary>Sets the Shim of DllExportAttribute.DllExportAttribute()</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.ConstructorString">
+            <summary>Sets the Shim of DllExportAttribute.DllExportAttribute(String exportName)</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.ConstructorStringCallingConvention">
+            <summary>Sets the Shim of DllExportAttribute.DllExportAttribute(String exportName, CallingConvention callingConvention)</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.ExportNameGet">
+            <summary>Sets the Shim of DllExportAttribute.get_ExportName()</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.ShimDllExportAttribute.ExportNameSetString">
+            <summary>Sets the Shim of DllExportAttribute.set_ExportName(String value)</summary>
+        </member>
+        <member name="T:RGiesecke.DllExport.Fakes.StubDllExportAttribute">
+            <summary>Stub type of RGiesecke.DllExport.DllExportAttribute</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.StubDllExportAttribute.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.StubDllExportAttribute.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.StubDllExportAttribute.#ctor(System.String,System.Runtime.InteropServices.CallingConvention)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.StubDllExportAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.StubDllExportAttribute.Equals(System.Object)">
+            <summary>Sets the Stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:RGiesecke.DllExport.Fakes.StubDllExportAttribute.EqualsObject">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.StubDllExportAttribute.GetHashCode">
+            <summary>Sets the Stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:RGiesecke.DllExport.Fakes.StubDllExportAttribute.GetHashCode01">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.StubDllExportAttribute.InitializeStub">
+            <summary>Initializes a new instance of type StubDllExportAttribute</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.StubDllExportAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.StubDllExportAttribute.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.StubDllExportAttribute.IsDefaultAttribute">
+            <summary>Sets the Stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:RGiesecke.DllExport.Fakes.StubDllExportAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:RGiesecke.DllExport.Fakes.StubDllExportAttribute.Match(System.Object)">
+            <summary>Sets the Stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:RGiesecke.DllExport.Fakes.StubDllExportAttribute.MatchObject">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="P:RGiesecke.DllExport.Fakes.StubDllExportAttribute.TypeId">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="F:RGiesecke.DllExport.Fakes.StubDllExportAttribute.TypeIdGet">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+    </members>
+</doc>
